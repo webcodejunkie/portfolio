@@ -1,0 +1,46 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+}
+
+.bg-custom {
+    background: rgba(0, 0, 0, .4);
+}
+
+.background-imcustom {
+    background: url('imgs/laptop.jpg') no-repeat center;
+    background-size: cover;
+    height: 300px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.da-background {
+    background: rgba(0, 0, 0, .3);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#card-hover {
+    transform: scale(1);
+    transition: all ease 2s;
+}
+
+#card-hover:hover {
+    transform: scale(1.06);
+    transition: all ease 2s;
+}
+
+footer {
+    background-color: black;
+    height: 60px;
+}
+
+@media screen and (max-width: 771px) {
+}
