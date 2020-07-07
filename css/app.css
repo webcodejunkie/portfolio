@@ -42,5 +42,17 @@ footer {
     height: 60px;
 }
 
+#form_wrapper {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+.border_line {
+    border-left: 4px solid lightblue;
+}
+
 @media screen and (max-width: 771px) {
 }

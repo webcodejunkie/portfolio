@@ -32,7 +32,7 @@
         </div>
         <div class="jumbotron jumbotron-fluid bg-light m-0">
             <div class="container">
-                <h1 class="display-4">Welcome!</h1>
+                <h1 class="display-4 border_line p-2">Welcome!</h1>
                 <hr />
                 <p class="lead">
                     Hello! <br /> My name is Rafael J Rios, I'm an aspiring Full-Stack Developer, as of right now I'm trying to achieve becoming a Front-End Developer.
@@ -45,7 +45,7 @@
         <div class="jumbotron jumbotron-fluid bg-light m-0">
             <div class="container">
                 <div class="d-flex flex-column align-items-center">
-                    <h1 class="display-4">My Skills</h1>
+                    <h1 class="display-4 border_line p-2">My Skills</h1>
                     <p class="lead">Want know my current skill set?</p>
                     <div class="card mb-3" style="width: 18rem;">
                         <div class="card-header">
@@ -59,15 +59,15 @@
                             <li class="list-group-item">Bootstrap 3, 4 <p class="text-danger">(This website was created with Bootstrap 4)</p></li>
                         </ul>
                     </div>
-                    <p class="lead text-info" style="text-align:center;">While this list doesn't contain newer languages, <br /> I'm always currently looking into newer advance ways to creating beautiful yet simplistic websites!</h1>
+                    <p class="lead text-info" style="text-align:center;">While this list doesn't contain newer languages, <br /> I'm always currently looking into newer advance ways to creating beautiful yet simplistic websites!</p>
                 </div>
             </div>
         </div>
         <div class="jumbotron jumbotron-fluid bg-light m-0">
             <div class="container">
                 <div class="d-flex flex-column align-items-center">
-                    <h1 class="display-4" id="mywork">My Work!</h1>
-                    <p class="lead">Want to view my work?</p>
+                    <h1 class="display-4 border_line p-2" id="mywork">View My Work!</h1>
+                    <p class="lead">Here's currently a small taste of what I'm using what I've learned so far.</p>
                     <h1 class="display-5 text-danger">Note that it's Front End only!</h1>
                 </div>
             </div>
@@ -102,27 +102,34 @@
                 <div class="d-flex flex-column align-items-center">
                     <h1 class="display-4" id="mycontact">Contact Me</h1>
                     <p class="lead">Fill out this form and contact me!</p>
-                    <form>
-                        <div class="row m-1">
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="First name">
+                    <div id="form_wrapper ">
+                        <form>
+                            <div class="row m-1">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="First name">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Last name">
+                                </div>
                             </div>
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="Last name">
+                            <div class="row m-1">
+                                <div class="col">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
                             </div>
-                        </div>
-                        <div class="row m-1">
-                            <div class="col">
-                                <input type="email" class="form-control" placeholder="Email">
+                            <p class="lead text-info" style="text-align: center;">Enter a message below!</p>
+                            <div class="row m-1">
+                                <div class="col">
+                                    <textarea rows="8" cols="64" placeholder="Message"></textarea>
+                                </div>
                             </div>
-                        </div>
-                        <p class="lead text-info" style="text-align: center;">Enter a message below!</p>
-                        <div class="row m-1">
-                            <div class="col">
-                                <textarea rows="8" cols="64" placeholder="Message"></textarea>
+                            <div class="row m-1">
+                                <div class="col d-flex justify-content-center">
+                                    <input type="submit" class="btn btn-primary" />
+                                </div>
                             </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
