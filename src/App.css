@@ -122,6 +122,11 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.ser-button:nth-child(1) {
+  background-color: #13d913;
 }
 
 .ser-button {
@@ -144,7 +149,6 @@ p {
   background-color: white;
   border: 1px solid black;
   color: black;
-  transform: scale(1.1);
   transition-duration: .2s;
   box-shadow: 9px -10px 3px;
 }

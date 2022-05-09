@@ -17,6 +17,7 @@ function Home() {
             </video>
           </div>
           <div className="button-wrapper">
+            <a className='ser-button' href="../../download/rafaeljriosCV.pdf" download>My CV</a>
             <Link className='ser-button' to="/projects">Work</Link>
           </div>
         </div>
