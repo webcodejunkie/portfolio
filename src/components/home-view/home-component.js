@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
 
 import vidOne from '../../imgs/aaa.mp4';
+import CV from '../../download/rafaeljriosCV.pdf';
 
 function Home() {
   return (
@@ -17,7 +18,7 @@ function Home() {
             </video>
           </div>
           <div className="button-wrapper">
-            <a className='ser-button' href="../../download/rafaeljriosCV.pdf" download>My CV</a>
+            <a className='ser-button' href={CV} download>My CV</a>
             <Link className='ser-button' to="/projects">Work</Link>
           </div>
         </div>
