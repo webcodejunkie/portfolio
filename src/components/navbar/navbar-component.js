@@ -1,6 +1,7 @@
 import '../../App.css';
 import { Link } from 'react-router-dom';
 import logoV from '../../imgs/brandlogo.mp4';
+import CV from '../../download/rafaeljriosCV.pdf';
 
 function Navbar() {
   return (
@@ -12,8 +13,11 @@ function Navbar() {
       </div>
       <ul className="nav-item">
         <li className="nav-link"><Link to="/">Home</Link></li>
-        <li className="nav-link"><Link to="/projects">Case Studies</Link></li>
+        <li className="nav-link"><Link to="/projects">Projects</Link></li>
         <li className="nav-link"><Link to="/contact">Contact</Link></li>
+        <li className="cv-button">
+          <a href={CV} download>My CV</a>
+        </li>
       </ul>
     </nav>
   )

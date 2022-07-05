@@ -1,11 +1,9 @@
 import '../../App.css';
-import { Link } from 'react-router-dom';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
 
-import vidOne from '../../imgs/aaa.mp4';
-import CV from '../../download/rafaeljriosCV.pdf';
+import pf from '../../imgs/pf.jpg';
 
 function Home() {
   return (
@@ -13,13 +11,46 @@ function Home() {
       <div className="first-col">
         <div className="content-wrapper">
           <div className="p-content">
-            <video autoPlay loop muted className="pf">
-              <source src={vidOne} />
-            </video>
-          </div>
-          <div className="button-wrapper">
-            <a className='ser-button' href={CV} download>My CV</a>
-            <Link className='ser-button' to="/projects">Work</Link>
+            <div className="welcome-header">
+              <div>
+                <div className="greeting-wrapper">
+                  <h1>
+                    <span className="small-text small-caps">Hello 👋,</span>
+                    <span className="small-caps">My name is</span>
+                    <span className="small-caps highlighter">Rafael J</span>
+                  </h1>
+                  <div className="avatar-frame">
+                    <img className="avatar-image" alt="" src={pf} />
+                  </div>
+                </div>
+                <div>
+                  <h2>Skills</h2>
+                  <ul className="skills-set">
+                    <div>
+                      <li>JavaScript</li>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                    </div>
+                    <div>
+                      <li>React</li>
+                      <li>NextJS</li>
+                      <li>Angular</li>
+                    </div>
+                    <div>
+                      <li>NodeJS</li>
+                      <li>Express</li>
+                      <li>MongoDB</li>
+                    </div>
+                  </ul>
+                </div>
+                <p>
+                  Greetings from Haverhill, MA, USA.
+                  I knew I wanted to be a programmer since the day I first heard of it,
+                  reverse engineering as a kid taught me the beauty of putting things back together,
+                  to build is what I want to do for you and myself.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -34,12 +65,14 @@ function Home() {
             </div>
             <div className="secondp-content">
               <p>
-                My goal is further continue learning software development and apply the different technologies I learn to my peronal endeavors.
-                But for now, I want to work in a company that recognizes the pursuit of education and understands the process.
+                My goal is further continue learning software development and apply the different technologies I learn to my peronal endeavors but also to advance my knowledge.
+                I would love to work in a company that recognizes the pursuit of education and understands the process.
               </p>
             </div>
           </div>
         </div>
+
+        <hr />
 
         <div className="third-col">
           <div className="thirdc-wrapper">
@@ -47,7 +80,7 @@ function Home() {
               <h1>What's next?</h1>
             </div>
             <div>
-              <h2 className="s-header t-right">Tether</h2>
+              <h2 className="s-header">Tether</h2>
               <p className="pthree-content">
                 Tether is a social platform catered towards the gaming industry. Pairing up players in need of a player two, this is a project currently being worked
                 on from the it's structure to the overall inner workings, more updates soon!

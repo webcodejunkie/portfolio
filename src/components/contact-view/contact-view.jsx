@@ -15,8 +15,8 @@ function Contact() {
           These are my socials, if you would like to connect there, please do!
         </p>
         <div className="social-btns">
-          <a className="sbtns" href="https://www.linkedin.com/in/rafael-j-rios/" target="_blank" rel='noreferrer'><FontAwesomeIcon className="fa-1xl" icon={faLinkedin} /></a>
-          <a className="sbtns" href="https://twitter.com/n0d3_22"><FontAwesomeIcon className="fa-1xl" icon={faTwitter} /></a>
+          <a className="sbtns" href="https://www.linkedin.com/in/rafael-j-rios/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fa-1xl" icon={faLinkedin} /></a>
+          <a className="sbtns" href="https://twitter.com/n0d3_22" target="_blank" rel="noreferrer"><FontAwesomeIcon className="fa-1xl" icon={faTwitter} /></a>
         </div>
       </div>
       <div className="footer-container" id="contact">
