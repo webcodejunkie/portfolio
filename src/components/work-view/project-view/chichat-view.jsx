@@ -1,6 +1,6 @@
 import '../css/work.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
+import { faCircleXmark } from '@fortawesome/free-regular-svg-icons';
 
 import { useNavigate } from 'react-router-dom';
 
@@ -28,15 +28,15 @@ function ChitChatView() {
   return (
     <div>
       <div className="project-content">
-        <div>
+        <div className='preview-wrapper'>
           <img className="phone-preview" alt="meetappphonepreview" src={mobilePreview} />
         </div>
 
         <div className="project-info">
           <div className="project-info-wrapper">
             <h1 className="project-title enlarge-b">ChitChat</h1>
-            <p>
-              Built a messaging application with React-Native.
+            <p className='project-title-des'>
+              Messaging application built with React Native.
             </p>
             <div className='site-container'>
               <a href="https://github.com/webcodejunkie/chitchat" target="_blank" rel='noreferrer' className='site-links'>Repo</a>
@@ -59,7 +59,7 @@ function ChitChatView() {
           <div className="project-info-wrapper">
             <h2 className="project-title enlarge-s">Summary</h2>
             <p>
-              Messaging application built with React-Native, Expo, Gifted-Chat Library. It only only uses Google Firebase as it's Database but also as it's storage for users to send photos from their camera roll and pins users location.
+              Messaging application built with React-Native, Expo, Gifted-Chat Library. It only uses Google Firebase as it's Database but also as it's storage for users to send photos from their camera roll and pins users location.
             </p>
           </div>
 
@@ -79,7 +79,7 @@ function ChitChatView() {
 
         </div>
       </div>
-      <FontAwesomeIcon className="fa-2xl xcpointer" icon={solid('angle-left')} onClick={goBack} />
+      <FontAwesomeIcon className="fa-2xl exit-icon" icon={faCircleXmark} onClick={goBack} />
     </div>
   );
 }

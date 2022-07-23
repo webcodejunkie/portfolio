@@ -1,6 +1,6 @@
 import '../css/work.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
+import { faCircleXmark } from '@fortawesome/free-regular-svg-icons';
 
 import { useNavigate } from 'react-router-dom';
 
@@ -34,23 +34,24 @@ function SkullifyView() {
   return (
     <div>
       <div className="project-content">
-        <div>
+        <div className='preview-wrapper'>
           <img className="phone-preview" alt="skullifyphonepreview" src={mobilePreview} />
+        </div>
+
+        <div className='site-container'>
+          <a href="https://skullify.netlify.app/" target="_blank" rel='noreferrer' className='site-links'>Site</a>
+          <a href="https://github.com/webcodejunkie/skullify-client" target="_blank" rel='noreferrer' className='site-links'>Repo</a>
         </div>
 
         <div className="project-info">
           <div className="project-info-wrapper">
-            <h1 className="project-title enlarge-b">Skullify</h1>
-            <p>
+            <h1 className="project-title enlarge-b">/skullify</h1>
+            <p className='project-title-des'>
               Using React, built the client-side for an application called Skullify based on its existing server-side code (MovieAPI)
             </p>
-            <div className='site-container'>
-              <a href="https://skullify.netlify.app/" target="_blank" rel='noreferrer' className='site-links'>Site</a>
-              <a href="https://github.com/webcodejunkie/skullify-client" target="_blank" rel='noreferrer' className='site-links'>Repo</a>
-            </div>
           </div>
 
-          <div className="project-info-wrapper tech-col">
+          <div className="tech-col">
             <h2 className="project-title enlarge-s">Technologies</h2>
             <div className="icon-container">
               {
@@ -86,7 +87,7 @@ function SkullifyView() {
 
         </div>
       </div>
-      <FontAwesomeIcon className="fa-2xl xcpointer" icon={solid('angle-left')} onClick={goBack} />
+      <FontAwesomeIcon className="fa-2xl exit-icon" icon={faCircleXmark} onClick={goBack} />
     </div>
   );
 }

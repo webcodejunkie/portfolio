@@ -8,10 +8,14 @@ import {
 import Home from './components/home-view/home-component';
 import Work from './components/work-view/work-component';
 import Navbar from './components/navbar/navbar-component';
+import Footer from './components/footer/footer';
 import SkullifyView from './components/work-view/project-view/skullify-view';
 import MeetappView from './components/work-view/project-view/meetapp-view';
 import ChitChatView from './components/work-view/project-view/chichat-view';
 import Contact from './components/contact-view/contact-view';
+import AboutView from './components/about-view/about.component';
+import Blog from './components/blog-view/blog-component';
+import NotFound from './components/404';
 
 function App() {
   return (
@@ -20,7 +24,8 @@ function App() {
         <Route exact path="/" element={
           <>
             <Navbar />
-            < Home />
+            <Home />
+            <Footer />
           </>} />
 
         <Route exact path="/contact" element={
@@ -30,10 +35,27 @@ function App() {
           </>
         } />
 
+        <Route exact path="/aboutme" element={
+          <>
+            <Navbar />
+            <AboutView />
+            <Footer />
+          </>
+        } />
+
+        <Route exact path="/blog" element={
+          <>
+            <Navbar />
+            <Blog />
+            <Footer />
+          </>
+        } />
+
         <Route exact path="/projects" element={
           <>
             <Navbar />
-            < Work />
+            <Work />
+            <Footer />
           </>
         } />
 
@@ -54,6 +76,15 @@ function App() {
             <ChitChatView />
           </>
         } />
+
+        <Route path="*" element={
+          <>
+            <Navbar />
+            <NotFound />
+            <Footer />
+          </>
+        } />
+
       </Routes>
     </Router>
   );

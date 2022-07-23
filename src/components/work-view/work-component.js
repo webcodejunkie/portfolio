@@ -6,17 +6,8 @@ import { Link } from 'react-router-dom';
 function Work() {
 
   return (
-    <div className="work-wrapper">
-      <section>
-        <div className="work-header">
-          <h1 className="header">Projects</h1>
-          <p>
-            These continuous projects showcase my knowledge for React and React-Native applications. While React isn't the only framework I'm interested in, it's one that I love to use in my applications.
-          </p>
-        </div>
-      </section>
-
-      <section>
+    <div>
+      <section className="work-wrapper">
         <div className="project-coll">
           <Link to="/projects/skullify">
             <div className="project-card skullify-card">
