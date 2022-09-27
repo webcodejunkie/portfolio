@@ -21,7 +21,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/portfolio" element={
+        <Route exact path="/" element={
           <>
             <Navbar />
             <Home />
