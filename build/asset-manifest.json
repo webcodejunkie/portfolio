@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.771dfafb.css",
+    "main.js": "/portfolio/static/js/main.11a4366e.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/avatar.png": "/portfolio/static/media/avatar.d4c07b3afed09b88f3fc.png",
+    "static/media/skullify-phone-transparent.png": "/portfolio/static/media/skullify-phone-transparent.037f0fdd4b95ff65a83c.png",
+    "static/media/chitchat-phone.png": "/portfolio/static/media/chitchat-phone.f5398badd1b575da3715.png",
+    "static/media/meetapp-right.png": "/portfolio/static/media/meetapp-right.67ee5e3c1f4d1e0dc794.png",
+    "static/media/uhoh.png": "/portfolio/static/media/uhoh.ffd4e3626f89e1749300.png",
+    "static/media/mongo.png": "/portfolio/static/media/mongo.25f4db76c4f22e721118.png",
+    "static/media/atom.png": "/portfolio/static/media/atom.ebb56ca47955bdc9fa25.png",
+    "static/media/meetapp-cover.png": "/portfolio/static/media/meetapp-cover.d84cc5443a049593cbc1.png",
+    "static/media/chit-chat-cover.png": "/portfolio/static/media/chit-chat-cover.a8245013538c0f6010da.png",
+    "static/media/skullify-cover.png": "/portfolio/static/media/skullify-cover.d1d53413f8f7ff203bd1.png",
+    "static/media/sass.png": "/portfolio/static/media/sass.c5da83bb9ff45b84e0e7.png",
+    "static/media/rafaeljriosCV.pdf": "/portfolio/static/media/rafaeljriosCV.435411c34c95d75d283e.pdf",
+    "static/media/node-js.png": "/portfolio/static/media/node-js.e328955d6bbbf3ebc72b.png",
+    "static/media/html.png": "/portfolio/static/media/html.6e930594286d8afe4c79.png",
+    "static/media/css-3.png": "/portfolio/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/aws.jpg": "/portfolio/static/media/aws.42796768b6ebc37bb55c.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.771dfafb.css.map": "/portfolio/static/css/main.771dfafb.css.map",
+    "main.11a4366e.js.map": "/portfolio/static/js/main.11a4366e.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.771dfafb.css",
+    "static/js/main.11a4366e.js"
+  ]
+}
