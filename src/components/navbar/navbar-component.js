@@ -60,7 +60,7 @@ function Navbar() {
               transition={{ type: "spring", stiffness: 100 }}
             >
               <ul className="nav-item">
-                <li className="nav-link" onClick={() => { setIsClosed(false) }}><Link to="/portfolio">/home</Link></li>
+                <li className="nav-link" onClick={() => { setIsClosed(false) }}><Link to="/">/home</Link></li>
                 <li className="nav-link" onClick={() => { setIsClosed(false) }}><Link to="/aboutme">/about me</Link></li>
                 <li className="nav-link" onClick={() => { setIsClosed(false) }}><Link to="/projects">/projects</Link></li>
                 <li className="nav-link" onClick={() => { setIsClosed(false) }} ><Link to="/contact">/contact</Link></li>
