@@ -1,8 +1,8 @@
-import './App.css';
+import './output/css/App.css';
 import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
+	BrowserRouter as Router,
+	Route,
+	Routes,
 } from 'react-router-dom';
 
 import Home from './components/home-view/home-component';
@@ -18,76 +18,76 @@ import Blog from './components/blog-view/blog-component';
 import NotFound from './components/404';
 
 function App() {
-  return (
-    <Router>
-      <Routes>
-        <Route exact path="/" element={
-          <>
-            <Navbar />
-            <Home />
-            <Footer />
-          </>} />
+	return (
+		<Router>
+			<Routes>
+				<Route exact path="/" element={
+					<>
+						<Navbar />
+						<Home />
+						<Footer />
+					</>} />
 
-        <Route exact path="/contact" element={
-          <>
-            <Navbar />
-            <Contact />
-          </>
-        } />
+				<Route exact path="/contact" element={
+					<>
+						<Navbar />
+						<Contact />
+					</>
+				} />
 
-        <Route exact path="/aboutme" element={
-          <>
-            <Navbar />
-            <AboutView />
-            <Footer />
-          </>
-        } />
+				<Route exact path="/aboutme" element={
+					<>
+						<Navbar />
+						<AboutView />
+						<Footer />
+					</>
+				} />
 
-        <Route exact path="/blog" element={
-          <>
-            <Navbar />
-            <Blog />
-            <Footer />
-          </>
-        } />
+				<Route exact path="/blog" element={
+					<>
+						<Navbar />
+						<Blog />
+						<Footer />
+					</>
+				} />
 
-        <Route exact path="/projects" element={
-          <>
-            <Navbar />
-            <Work />
-            <Footer />
-          </>
-        } />
+				<Route exact path="/projects" element={
+					<>
+						<Navbar />
+						<Work />
+						<Footer />
+					</>
+				} />
 
-        <Route exact path="/projects/skullify" element={
-          <>
-            <SkullifyView />
-          </>
-        } />
+				<Route exact path="/projects/skullify" element={
+					<>
+						<SkullifyView />
+					</>
+				} />
 
-        <Route exact path="/projects/meetapp" element={
-          <>
-            <MeetappView />
-          </>
-        } />
+				<Route exact path="/projects/meetapp" element={
+					<>
+						<MeetappView />
+					</>
+				} />
 
-        <Route exact path="/projects/chitchat" element={
-          <>
-            <ChitChatView />
-          </>
-        } />
+				<Route exact path="/projects/chitchat" element={
+					<>
+						<ChitChatView />
+					</>
+				} />
 
-        <Route path="*" element={
-          <>
-            <Navbar />
-            <NotFound />
-            <Footer />
-          </>
-        } />
+				<Route path="*" element={
+					<>
+						<Navbar />
+						<NotFound />
+						<Footer />
+					</>
+				} />
 
-      </Routes>
-    </Router>
-  );
+			</Routes>
+		</Router>
+	);
 }
 
 export default App;

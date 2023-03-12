@@ -26,8 +26,8 @@
 	"scripts": {
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
-		"run": "node-sass -w scss/ -o css/ --recursive",
 		"start": "react-scripts start",
+		"sass": "sass --watch src/scss/:src/output/css/",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"

@@ -1,0 +1,183 @@
+.exit-icon {
+	position: absolute;
+	right: 3%;
+	top: 3%;
+	color: #ff4949;
+	transform: rotate(0deg);
+	transition-duration: 0.3s;
+	cursor: pointer;
+}
+
+.exit-icon:hover {
+	transition-duration: 0.3s;
+	transform: rotate(180deg);
+}
+
+.work-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow: hidden;
+	color: white;
+	padding: 14rem 0;
+	background-color: #404eed;
+}
+
+.project-coll {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.project-content {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.project-title-des {
+	width: 60%;
+	padding: 2rem 0;
+}
+
+.project-info {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #433c3c;
+}
+
+.project-info-wrapper {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	padding: 6rem 0;
+	width: 70%;
+}
+
+.enlarge-b {
+	font-size: 60px;
+	color: #404eed;
+}
+
+.enlarge-s {
+	font-size: 60px;
+}
+
+.icon {
+	width: 100px;
+	padding: 20px;
+	margin: 10px;
+}
+
+.icon-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.preview-wrapper {
+	padding: 6rem 0;
+}
+
+.tech-col {
+	align-items: center;
+}
+
+.site-container {
+	width: 30%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.site-links {
+	background-color: #000000;
+	padding: 10px 35px;
+	font-size: 22px;
+	box-shadow: 2px 2px 2px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.site-links:hover {
+	background-color: #ffffff;
+	padding: 10px 35px;
+	font-size: 22px;
+	box-shadow: 2px 2px 8px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: black;
+}
+
+.project-card {
+	width: 220px;
+	height: 220px;
+	background-color: white;
+	border-radius: 5px;
+	transition-duration: 0.3s;
+	cursor: pointer;
+	transform: translateY(0);
+}
+
+.project-card:hover {
+	transform: translateY(3px);
+	transition-duration: 0.3s;
+}
+
+.skullify-card {
+	background-image: url("../../assets/imgs/skullify-cover.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition-duration: 0.5s;
+}
+
+.skullify-card:hover {
+	filter: brightness(0.5);
+	transition-duration: 0.2s;
+}
+
+.meetapp-card {
+	background-image: url("../../assets/imgs/meetapp-cover.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.meetapp-card:hover {
+	filter: brightness(0.5);
+	transition-duration: 0.2s;
+}
+
+.chitchat-card {
+	background-image: url("../../assets/imgs/chit-chat-cover.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition-duration: 0.2s;
+}
+
+.chitchat-card:hover {
+	filter: brightness(0.5);
+	transition-duration: 0.2s;
+}
+
+.phone-preview {
+	width: 400px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	.work-wrapper {
+		padding: 0;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	.work-wrapper {
+		padding: 0;
+	}
+}
+
+/*# sourceMappingURL=work.css.map */
