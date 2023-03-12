@@ -1,7 +1,6 @@
 .typerwriter {
 	position: absolute;
 	top: 130px;
-	background: black;
 	padding: 0.5em;
 	overflow: hidden;
 	border-right: .15em solid black;
@@ -14,8 +13,10 @@
 }
 
 .drawDownLine {
+	border-left: 4px solid #00ff43;
+	margin: -200px auto;
 	overflow: hidden;
-	animation: drawdown-line 2.5s infinite;
+	animation: drawdown-line 2.5s forwards 1 ease;
 }
 
 @keyframes typing {
@@ -42,9 +43,12 @@
 
 @keyframes drawdown-line {
 
-	from,
+	from {
+		height: 0px;
+	}
+
 	to {
-		border-left: 4px solid #00ff43;
-		margin: -25px auto;
+		height: 100%;
+		margin: -10px;
 	}
 }

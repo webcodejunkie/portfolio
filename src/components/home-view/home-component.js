@@ -11,11 +11,7 @@ function Home() {
 		<div className='container'>
 
 			<div className="first-col">
-				<motion.div
-					whileInView={{ opacity: [0, 1], y: [100, 0] }}
-					transition={{ ease: "easeIn" }}
-					className='hero-content-container drawDownLine'
-				>
+				<div className='hero-content-container drawDownLine'>
 					<h1 className='hero--header typerwriter'>/channeling my creativity.</h1>
 					<p className='hero--header--content'>
 						For as long as I can remember, I've felt that my path relied on my <span style={{ color: 'lime' }}>creativity</span>, Web Development is just a subject of that.
@@ -27,7 +23,7 @@ function Home() {
 						</div>
 						*/
 					}
-				</motion.div>
+				</div>
 			</div>
 
 			<div className='second-col'>
