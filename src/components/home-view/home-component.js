@@ -14,19 +14,19 @@ function Home() {
 				<motion.div
 					whileInView={{ opacity: [0, 1], y: [100, 0] }}
 					transition={{ ease: "easeIn" }}
-					className='hero-content-container'
+					className='hero-content-container drawDownLine'
 				>
-					<h1 className='hero--header'>/channeling my creativity.</h1>
-					<p>
-						They say creativity can't be controlled, that it cannot be commanded.
-						It's something that comes natural.
-						While that is true, there are many ways to ignite these passion filled urges.
-						For as long as I can remember, I've felt that my path relied on my creativity,
-						Web Development is just a subject of that.
+					<h1 className='hero--header typerwriter'>/channeling my creativity.</h1>
+					<p className='hero--header--content'>
+						For as long as I can remember, I've felt that my path relied on my <span style={{ color: 'lime' }}>creativity</span>, Web Development is just a subject of that.
 					</p>
-					<div className='button-container'>
-						<Link to="/aboutme" className='button-styled'>about me</Link>
-					</div>
+					{
+						/*
+						<div className='button-container'>
+							<Link to="/aboutme" className='button-styled'>ABOUT ME</Link>
+						</div>
+						*/
+					}
 				</motion.div>
 			</div>
 

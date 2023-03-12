@@ -156,15 +156,24 @@ h6 {
 }
 
 .hero-content-container {
-  width: 35%;
+  width: 50%;
   color: #fff;
-  display: grid;
+  display: flex;
   padding: 12rem 2rem;
+  align-items: center;
   text-align: center;
+  flex-direction: column;
 }
 
 .hero--header {
-  font-size: 60px;
+  font-size: 52px;
+}
+
+.hero--header--content {
+  font-size: 36px;
+  text-align: end;
+  width: 68%;
+  padding: 1.1em;
 }
 
 .second-col {
@@ -183,7 +192,7 @@ h6 {
 }
 
 .second--header {
-  font-size: 60px;
+  font-size: 52px;
 }
 
 .third-col {
@@ -203,7 +212,7 @@ h6 {
 }
 
 .third--header {
-  font-size: 60px;
+  font-size: 52px;
 }
 
 .button-wrapper {
@@ -296,7 +305,7 @@ h6 {
     padding: 9rem 2rem;
   }
   .hero--header {
-    font-size: 36px;
+    font-size: 24px;
   }
   .second-content-container {
     width: 100%;
@@ -340,7 +349,7 @@ h6 {
     font-size: 24px;
   }
   .hero-content-container {
-    width: 70%;
+    width: 100%;
     padding: 9rem 2rem;
   }
   .hero--header {
