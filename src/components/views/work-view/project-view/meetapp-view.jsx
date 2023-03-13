@@ -1,17 +1,17 @@
-import '../../../output/css/work.css';
+import '../../../../output/css/work.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleXmark } from '@fortawesome/free-regular-svg-icons';
 
 import { useNavigate } from 'react-router-dom';
 
 // images
-import mobilePreview from '../../../assets/imgs/meetapp-right.png';
-import iconJs from '../../../assets/icons/js.png';
-import iconReact from '../../../assets/icons/atom.png';
-import iconHtml from '../../../assets/icons/html.png';
-import iconCss from '../../../assets/icons/css-3.png';
-import iconAws from '../../../assets/icons/aws.jpg';
-import iconSass from '../../../assets/icons/sass.png';
+import mobilePreview from '../../../../assets/imgs/meetapp-right.png';
+import iconJs from '../../../../assets/icons/js.png';
+import iconReact from '../../../../assets/icons/atom.png';
+import iconHtml from '../../../../assets/icons/html.png';
+import iconCss from '../../../../assets/icons/css-3.png';
+import iconAws from '../../../../assets/icons/aws.jpg';
+import iconSass from '../../../../assets/icons/sass.png';
 
 let icons = [
 	iconJs,

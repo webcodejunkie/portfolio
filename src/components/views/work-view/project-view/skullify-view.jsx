@@ -1,18 +1,18 @@
-import '../../../output/css/work.css';
+import '../../../../output/css/work.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleXmark } from '@fortawesome/free-regular-svg-icons';
 
 import { useNavigate } from 'react-router-dom';
 
 // images
-import mobilePreview from '../../../assets/imgs/skullify-phone-transparent.png';
-import iconJs from '../../../assets/icons/js.png';
-import iconReact from '../../../assets/icons/atom.png';
-import iconHtml from '../../../assets/icons/html.png';
-import iconCss from '../../../assets/icons/css-3.png';
-import iconSass from '../../../assets/icons/sass.png';
-import iconNode from '../../../assets/icons/node-js.png';
-import iconMongo from '../../../assets/icons/mongo.png';
+import mobilePreview from '../../../../assets/imgs/skullify-phone-transparent.png';
+import iconJs from '../../../../assets/icons/js.png';
+import iconReact from '../../../../assets/icons/atom.png';
+import iconHtml from '../../../../assets/icons/html.png';
+import iconCss from '../../../../assets/icons/css-3.png';
+import iconSass from '../../../../assets/icons/sass.png';
+import iconNode from '../../../../assets/icons/node-js.png';
+import iconMongo from '../../../../assets/icons/mongo.png';
 
 let icons = [
 	iconJs,

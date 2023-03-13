@@ -1,5 +1,5 @@
-import '../../output/css/App.css';
-import '../../output/css/work.css';
+import '../../../output/css/App.css';
+import '../../../output/css/work.css';
 import { Link } from 'react-router-dom';
 
 

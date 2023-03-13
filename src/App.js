@@ -5,16 +5,16 @@ import {
 	Routes,
 } from 'react-router-dom';
 
-import Home from './components/home-view/home-component';
-import Work from './components/work-view/work-component';
+import Home from './components/views/home-view/home-component';
+import Work from './components/views/work-view/work-component';
 import Navbar from './components/navbar/navbar-component';
 import Footer from './components/footer/footer';
-import SkullifyView from './components/work-view/project-view/skullify-view';
-import MeetappView from './components/work-view/project-view/meetapp-view';
-import ChitChatView from './components/work-view/project-view/chichat-view';
-import Contact from './components/contact-view/contact-view';
-import AboutView from './components/about-view/about.component';
-import Blog from './components/blog-view/blog-component';
+import SkullifyView from './components/views/work-view/project-view/skullify-view';
+import MeetappView from './components/views/work-view/project-view/meetapp-view';
+import ChitChatView from './components/views/work-view/project-view/chichat-view';
+import Contact from './components/views/contact-view/contact-view';
+import AboutView from './components/views/about-view/about.component';
+import Blog from './components/views/blog-view/blog-component';
 import NotFound from './components/404';
 
 function App() {

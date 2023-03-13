@@ -1,6 +1,6 @@
-import '../../output/css/about.css';
+import '../../../output/css/about.css';
 //images
-import avatar from '../../assets/imgs/avatar.png';
+import avatar from '../../../assets/imgs/avatar.png';
 // framer motion
 import { motion } from 'framer-motion';
 

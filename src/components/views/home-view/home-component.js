@@ -1,5 +1,5 @@
-import '../../output/css/App.css';
-import '../../output/css/animations/animations.css';
+import '../../../output/css/App.css';
+import '../../../output/css/animations/animations.css';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 // Framer Motion

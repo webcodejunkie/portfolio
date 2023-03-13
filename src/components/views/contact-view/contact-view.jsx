@@ -1,4 +1,4 @@
-import '../../output/css/contact.css';
+import '../../../output/css/contact.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
