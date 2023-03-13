@@ -11,7 +11,6 @@
 }
 
 .drawDownLine {
-  border-left: 4px solid #00ff43;
   margin: -200px auto;
   overflow: hidden;
   animation: drawdown-line 2.5s forwards 1 ease;

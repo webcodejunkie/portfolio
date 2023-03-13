@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"belt.css"}
+{"version":3,"sourceRoot":"","sources":["../../scss/belt.scss"],"names":[],"mappings":"AAAA;EACC;EACA;EACA;;AAEA;EACC;EACA;EACA;EACA;EACA;;AAEA;EACC;EACA;;;AAMH;EACC;IACC;;;AAMF;EACC;IACC;;;AAKF;EACC;IACC","file":"belt.css"}

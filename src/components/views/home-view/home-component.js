@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 // Framer Motion
 import { motion } from 'framer-motion';
+import Belt from '../../belt/belt-component';
 
 function Home() {
 
@@ -24,6 +25,7 @@ function Home() {
 						*/
 					}
 				</div>
+				<Belt />
 			</div>
 
 			<div className='second-col'>
