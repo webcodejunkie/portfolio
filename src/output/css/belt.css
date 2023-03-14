@@ -15,6 +15,34 @@
   transition: 0.5s ease;
 }
 
+.beltElOne {
+  background-image: url("../../assets/imgs/skullify-web-cover.png");
+  background-position: center;
+  background-size: cover;
+}
+.beltElOne:hover {
+  background-image: url("../../assets/imgs/skullify-cover.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.beltElTwo {
+  background-image: url("../../assets/imgs/meetapp-web-cover.png");
+  background-position: center;
+  background-size: cover;
+}
+.beltElTwo:hover {
+  background-image: url("../../assets/imgs/meetapp-cover.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.beltElThree {
+  background-image: url("../../assets/imgs/tether-web-cover.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   .belt-container {
     flex-direction: column;
